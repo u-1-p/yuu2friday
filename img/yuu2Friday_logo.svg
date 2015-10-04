@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="415px" height="94px" viewBox="0 0 415 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>憂鬱な金曜日 + yuu2Friday</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-508.000000, -175.000000)" font-family="YuGothic" font-weight="bold">
+            <g id="憂鬱な金曜日-+-yuu2Friday" sketch:type="MSLayerGroup" transform="translate(505.000000, 173.000000)">
+                <text id="憂鬱な金曜日" opacity="0.99000001" sketch:type="MSTextLayer" font-size="72" letter-spacing="5">
+                    <tspan x="0" y="89.0894495" fill="#403C3D">憂</tspan>
+                    <tspan x="77" y="89.0894495" letter-spacing="0.3" fill="#403C3D">鬱</tspan>
+                    <tspan x="149.3" y="89.0894495" font-size="65" letter-spacing="1.70833325" fill="#403C3D">な</tspan>
+                    <tspan x="216.008333" y="89.0894495" letter-spacing="2" fill="#C4B951">金</tspan>
+                    <tspan x="290.008333" y="89.0894495" letter-spacing="-4" fill="#403C3D">曜</tspan>
+                    <tspan x="358.008333" y="89.0894495" letter-spacing="3" fill="#403C3D">日</tspan>
+                </text>
+                <text id="yuu2Friday" sketch:type="MSTextLayer" font-size="24" letter-spacing="2.8333334" fill="#403C3D">
+                    <tspan x="133" y="21.0894495">y</tspan>
+                    <tspan x="148.625333" y="21.0894495" letter-spacing="3.8233334">u</tspan>
+                    <tspan x="167.280667" y="21.0894495" letter-spacing="5.1433334">u</tspan>
+                    <tspan x="187.256" y="21.0894495" letter-spacing="4.4833334">2F</tspan>
+                    <tspan x="224.014667" y="21.0894495" letter-spacing="5.4733334">r</tspan>
+                    <tspan x="238.896" y="21.0894495" letter-spacing="4.4833334">i</tspan>
+                    <tspan x="250.243334" y="21.0894495" letter-spacing="5.8033334">da</tspan>
+                    <tspan x="290.554001" y="21.0894495" letter-spacing="9.4333334">y</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

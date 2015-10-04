@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><title>Example Article | yuu2Friday 憂鬱な金曜日</title><link href="/test-middleman-page/../css/style.css" rel="stylesheet" /><script src="/test-middleman-page/../js/all.js"></script></head><body><div class="blog"><header class="header"><div class="title_logo"><a href="/"><img alt="yuu2Friday 憂鬱な金曜日" class="header_logo" src="/test-middleman-page/../img/yuu2Friday_logo.svg" /></a></div><nav class="top_nav"><div class="menu_btn"><img alt="nav-Button" src="/test-middleman-page/../img/btn.svg" /><ul><li><a href="../">home</a></li><li><a href="../about.html">about</a></li><li><a href="../archive.html">archive</a></li></ul></div></nav></header><hr class="block_line"><div class="post"><div class="article"><time class="date">12.01/01</time><h2 class="title">Example Article</h2><p>ひょんなことからLogicoolのゲーミングマウスG303を入手したからPCだけじゃなくPS4でもマウス使ってみようと思ってお手軽そうなGIMXを導入してみた。<br />
+</p>
+
+<hr />
+
+<p>新しい日本語のドキュメントがほとんどないから書き残しておきます。<br />
+基本的には<a href="http://gimx.fr/wiki">GIMX</a>に記載されていることです。</p>
+
+<p>今回の接続方法はDIY Adapterと呼ばれる有線の接続をします。</p>
+
+<h3 id="section">用意したもの</h3>
+<ul>
+  <li>atmega32u4を搭載したマイコンボード
+    <ul>
+      <li>他にも使えるものがいくつかあり。</li>
+    </ul>
+  </li>
+  <li>CP2102を搭載したUSBシリアル変換モジュール
+    <ul>
+      <li>こちらも他にも使えるものあり。</li>
+    </ul>
+  </li>
+  <li>USB-miniBのケーブル 2本</li>
+  <li>DS4</li>
+  <li>PC (今回はWindowsで行いました。)</li>
+</ul>
+
+<h3 id="section-1">手順</h3>
+<ol>
+  <li>
+    <p>まずアダプターを作成。<br />
+マイコンボードのRX(D2),TX(D3),GNDとシリアル変換モジュールのRX,TX,GNDを接続すれば完成です。<br />
+※CP2102のみRXとTX端子の印字が逆になっていることがあるので動かなかった場合は要チェック。</p>
+  </li>
+  <li>
+    <p>マイコンにHEXファイルを書き込む。
+Githubのリポジトリよりファームウェアをダウンロード、今回はPS4のDS4をエミュレートするので、EMUPS4フォルダatmega32u4を選択して書き込む。<br />
+atmega32u4の特性上リセットをして約10秒間の間に書き込む信号を送らないと書き込めないのでリセットの作業から書き込みまでは素早く行うこと。
+FLIPというソフトを使うように指示されているサイトが多いようですが、ドライバが見つからず使えなかったので、ArduinoIDEをインストールし同じatmega32u4がのったArduino Leonarudoのドライバを使いArduinoBuilderを使ってHEXファイルを書き込みました。</p>
+  </li>
+  <li>
+    <p>GIMXをインストール<br />
+GithubのリポジトリよりGIMXの64bit版をダウンロードしインストール。<br />
+CP2102のドライバーも続けてインストールする。<br />
+インストール後にconfigファイルをダウンロードしておくと楽。</p>
+  </li>
+  <li>
+    <p>マウスやキーボードの設定
+GIMXを起動し、file&gt;Edit configを行う。
+先ほどDLしたconfigを開き、Advancedタブのmulutiple mose and keyboardにチェックをいれ保存。
+その他必要に応じてマウスのサイドボタン等を設定する。</p>
+  </li>
+  <li>
+    <p>マウスのキャリブレーションを行う。<br />
+DIYアダプターをPCにUSB側を使って接続し、PS4側にマイコンボードをminiBを使って
+接続する。同時にDS4の電源を切ってPCに接続する。<br />
+GIMXからCheckをかけエラーが出なければ、
+Outputの欄にあるGUIのチェックを入れStartをクリックして起動する。<br />
+でてきたUIがアクティブな時にCtrl+F1を押し設定を進める。</p>
+
+    <p>### 各項目の説明(マウスのホイールで設定の数値を変更できる。</p>
+
+    <ul>
+      <li>F1 設定するマウスを選ぶ</li>
+      <li>F2 設定を反映するプロファイルを選ぶ(基本的には1が腰だめ2がADS時となっている)</li>
+      <li>F3はx軸の、F4はy軸のデッドゾーンを調整する</li>
+      <li>F5はデッドゾーンの形状を設定する</li>
+      <li>F6 左右の加速度のバランスをテストする</li>
+      <li>F7はx軸のF8はy軸の加速度を調整する</li>
+      <li>F9は感度を調整する</li>
+      <li>F10は円運動のテスト</li>
+      <li>テスト中にF10はテストの円の半径を、F11は動く速度を決める。</li>
+      <li>F12は円の縦横比を設定	する
+使用するゲームごとに設定ファイルを変えられるので、ゲームを変えるたびにマウスのキャリブレーションは行うこと。</li>
+    </ul>
+
+    <p>### 設定方法(BFの場</p>
+
+    <ol>
+      <li>演習場もしくは空のサーバーに入る</li>
+      <li>GUIからCtrl+F1で設定画面に入る</li>
+      <li>腰だめから設定を行う(必ずゲーム内の感度は最大にしておく</li>
+      <li>F3、F4はそれぞれ勝手に動き出す最小値を設定する</li>
+      <li>F5は"rectangle"もしくは"circle"のどちらかで勝手に動き出さない方を選ぶ</li>
+      <li>F6のテストは行わない(wikiには元の位置に戻ると書かれていたがこの先の設定をしても戻らない気がするため)</li>
+      <li>F7、F8でゆっくり動かした時と素早く動かした時の差がなくなるように加速度を決める</li>
+      <li>F9で感度を決める</li>
+      <li>F10のテストを行い正円をを描くようにF12で縦横比を調整する</li>
+      <li>設定ができたらCtrl+F1を押し保存する</li>
+      <li>ADSの設定も同様の手順で行う</li>
+      <li>※GIMXのfile&gt;Editconfig fpsからも設定ができるので感度等はこちらから設定する方が楽に数値を変えれる</li>
+    </ol>
+  </li>
+  <li>
+    <p>遊ぶ<br />
+Windows環境だと現状10-15分ほどで接続が切れてしまうのでターミナルを終了し、再度GIMXからstartをクリックして直す必要がある。</p>
+  </li>
+</ol>
+
+<h3 id="section-2">感想</h3>
+<p>まずマイコンに書き込むタイミングがシビアで慣れるまでうまくできなかった。<br />
+リセットを何度もするのでリセットボタンのあるマイコンを選ぶ方が楽にできるかもしれない。</p>
+
+<p>はじめは普段使っているiMacのBootcampを使って作ったWin7環境を使おうと思ったが、GIMXをインストールする際にインストールされるUsbDkが本体のUSBポートと競合し、すべてのUSBポートが使用不可になってしまい、起動もできなくなったので諦めた。多分iMacにはUSB3.0のポートしかないのが問題なのかなと思っている。<br />
+仕方ないので昔使っていたノートパソコンにGIMXをインストールした。
+いざ繋いでみるとエラーが出て動かなかったがCP2102を使っていたのでRXとTXを入れ替えたら動いた。</p>
+
+<p>ゲーム側に視野角の設定がないのが辛いが設定を詰めればPC版とほぼ変わらない動きができる。(ハイセンシは設定が大変)</p>
+
+<p>エイムアシストと組み合わせたら無双できそうな気もするけど遠くの敵が狙いにくかったりするからアシスト系は全部オフにして使っている。<br />
+2千円ほどででそれ相応の動きができるのは美味しい。<br />
+マウサーがどうのこうの言ってる人たまにいるけど下手くそがマウス使ったところでそんな変わんないです…(むしろアシスト効かせてる分パッドの方がキル出来る気がしてる)</p>
+
+<p>Windowsの抱えてる切断問題が一番のネックで早い時は10分経たずに切断されちゃうし、再接続の際に全く操作できなくなるからUbuntu環境作って動かす方がいいのかなってちょっと思ってる。</p>
+
+<p>全体的に難しいところないしお遊び程度ならいいかなって感じでした。<br />
+ガチで使うならXIM4とか買う方がいいかもしれないです。</p>
+<p class="back"><a href="../">モドル</a></p></div></div></div><hr class="block_line"><footer class="footer"><a href="http://u-1-p.com"><img alt="u-1-p_logo" class="footer_logo" src="/test-middleman-page/../img/u-1-p_logo.svg" /></a><h2 class="footer_copyright">© Yuichiro Uchibori All Rights Reserved.</h2></footer></body></html>
