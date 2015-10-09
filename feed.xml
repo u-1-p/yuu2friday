@@ -5,10 +5,37 @@
   <id>http://yuu2friday.com/Friday</id>
   <link href="http://yuu2friday.com/Friday"/>
   <link href="http://yuu2friday.com/feed.xml" rel="self"/>
-  <updated>2015-10-05T00:00:00+09:00</updated>
+  <updated>2015-10-09T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>頭を使わないと頭が使えなくなるよねって話。</title>
+    <link rel="alternate" href="http://yuu2friday.com/Friday/week1.html"/>
+    <id>http://yuu2friday.com/Friday/week1.html</id>
+    <published>2015-10-09T00:00:00+09:00</published>
+    <updated>2015-10-09T21:58:41+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;憂鬱な金曜日、第1週・1回目の更新です。&lt;br /&gt;
+ここ最近、学校で本の装丁の課題をしていたのだけど、細かい数値の計算ができなくてアホさを露呈してはずがしい限りだった。&lt;br /&gt;
+タイトル通り、普段から頭というかいろんなことを習慣づけてでもやってかないと、できてたこともできなくなるし、せっかく学んだことも気づくころには忘れてたりすると思う。 
+と言いつつも一人でちまちまやるのはあまり得意ではないタイプだから、勝手に切磋琢磨してでも身につけたことを忘れにくい環境を作っていきたい。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;話は変わって、研究室が決まったらしい。&lt;br /&gt;
+自ら希望してだけど普段なら選ばないようなところに言ってみたから楽しみ半分、いろんな事への不安が半分みたいな感じだ。&lt;br /&gt;
+担当の先生が日本でMacを一番初めに買った人(自称)らしく、研究室説明会では昔はWebめっちゃやってたみたいなことも聞いたから面白くなるといいなと思う。(テーブルレイアウターだったら笑う)&lt;br /&gt;
+別ブログに前に書いた研究テーマ決めるみたいな話は相変わらずまとまってないけど、今年中にいろいろ思考を巡らせて決めてしまいたい。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;こんな感じでこれから毎週どうでもいい感じのことを書き留めていこうかなって感じです
+向こうのブログのなんかよくわからないボヤキ系の記事をこっちに持ってくるのかすごく悩んでる…。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>お誕生日です。</title>
     <link rel="alternate" href="http://yuu2friday.com/Friday/HBD.html"/>
