@@ -5,10 +5,30 @@
   <id>http://yuu2friday.com/Friday</id>
   <link href="http://yuu2friday.com/Friday"/>
   <link href="http://yuu2friday.com/feed.xml" rel="self"/>
-  <updated>2015-10-23T00:00:00+09:00</updated>
+  <updated>2015-10-30T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>いい感じのものが市販されていない</title>
+    <link rel="alternate" href="http://yuu2friday.com/Friday/week4.html"/>
+    <id>http://yuu2friday.com/Friday/week4.html</id>
+    <published>2015-10-30T00:00:00+09:00</published>
+    <updated>2015-10-31T14:00:41+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;これといってお金があるわけでもないけど欲しいものを揃え始めている。&lt;br /&gt;
+で、そういうものの入れ物を探すときにいつもいい感じのものが見つからない事が多い。&lt;br /&gt;
+自作するか、どこかでオーダーするかみたいな2択になる。&lt;br /&gt;
+自作するとなると、道具揃えて、材料買って、作り方勉強して…といろいろ時間とお金がかかる。&lt;br /&gt;
+かと言って、オーダーとなるとまたそれなりに時間もお金がかかる。 
+で、お金がない僕は市販品で満足したことにするのが多い。&lt;br /&gt;
+こういう悩みは皆ないものなのか、それとも妥協してるのか。&lt;br /&gt;
+そんな感じで悩みつつ、いい加減に財布と定期入れを買い換えたくていいものを探している。&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>本読むぞ</title>
     <link rel="alternate" href="http://yuu2friday.com/Friday/week3.html"/>
