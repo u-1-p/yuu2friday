@@ -5,10 +5,42 @@
   <id>http://yuu2friday.com/Friday</id>
   <link href="http://yuu2friday.com/Friday"/>
   <link href="http://yuu2friday.com/feed.xml" rel="self"/>
-  <updated>2015-12-25T00:00:00+09:00</updated>
+  <updated>2016-01-01T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>tumblrつかってサイト作った話</title>
+    <link rel="alternate" href="http://yuu2friday.com/Friday/week13.html"/>
+    <id>http://yuu2friday.com/Friday/week13.html</id>
+    <published>2016-01-01T00:00:00+09:00</published>
+    <updated>2016-01-03T00:58:15+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;あけてしまいました2016年。&lt;br /&gt;
+新年1発目の記事が遅刻という残念な感じですが、今年もよろしくお願いします。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;憂鬱ではないことなんですが、報告兼ねての後日談的なことをします。&lt;br /&gt;
+1月2日より活動を正式に始めた&lt;a href="http://unun-photo.tumblr.com"&gt;unun&lt;/a&gt;というグループを設立しました。そのwebサイトとロゴの製作をやってみた感じです。&lt;br /&gt;
+グループとしては写真撮って個展やったり、プロダクト的なものづくりまでできればいいかなと思っています。&lt;/p&gt;
+
+&lt;p&gt;ロゴはいくつか案を出し合ってなんかかっこいい感じのロゴになりました。&lt;br /&gt;
+印刷でも使えるように調整はしたつもりなんだけども使いどころがないので名刺とか作ってみたいですね。&lt;/p&gt;
+
+&lt;p&gt;Webサイトに関しては作るにあたってどうしてもtumblrを使いたい、そして、Tagや投稿タイプで条件分岐させたい、といろいろ悩んだ結果、Nakae Ryoさんがされていた&lt;a href="http://memo.brdr.jp/post/130809150016/react%E3%81%A7tumblr%E3%83%86%E3%83%BC%E3%83%9E%E4%BD%9C%E3%81%A3%E3%81%9F"&gt;記事&lt;/a&gt;を見つけて同じくtumblrAPIとReact.jsをつかってサイトを作ってみました。
+ソースコードを公開されていたのでめちゃくちゃ参考にしながらああでもないこうでもないとやって作った感じです。
+無知な僕にとってReact.jsはhtmlっぽいものを書けるのがとてもわかり易いというか良いなと思いました。&lt;/p&gt;
+
+&lt;p&gt;tumblrAPIの投稿タイプとtagを指定して取得しようとするとエラー出る問題とか、そもそもnode.jsをインストールする段階で詰んでて完成どころか開発すらできないんじゃ…みたいになりつつも年末の1週間位書けてガガッと詰め込んだ感じです。&lt;br /&gt;
+まだまだアップデートといいますか、調整をしていい感じに仕上げていきたいなと思うので良かったらチェックしてみてください。&lt;/p&gt;
+
+&lt;p&gt;こんな感じの報告だけの新年1発目の記事でした。&lt;br /&gt;
+おしまい。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>ソフトの勉強っていらなくない？</title>
     <link rel="alternate" href="http://yuu2friday.com/Friday/week12.html"/>
@@ -153,33 +185,6 @@
 
 &lt;p&gt;スマホならケーブル一本させば充電できてすぐ元気になってくれるのに人間はなかなかそう上手くは作られてないらしくめんどくさい。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>教員とは</title>
-    <link rel="alternate" href="http://yuu2friday.com/Friday/week7.html"/>
-    <id>http://yuu2friday.com/Friday/week7.html</id>
-    <published>2015-11-20T00:00:00+09:00</published>
-    <updated>2015-11-21T00:14:16+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;今週の憂鬱はデザインから少し離れて上下関係みたいなものについて。&lt;br /&gt;
-具体的には演習の先生と研究室の先生に対する疑問みたいなものです。&lt;br /&gt;
-どちらの先生にも言えることなんだけど学生に対して割りと上からというか、一方通行なコミュニケーションをする。&lt;br /&gt;
-演習の先生は僕に限ってのことかもしれないけどほぼ意見は通らない。というか意見じゃなくてケチとしか取ってくれない。周りの人からはいつもやり合ってるって言われるけど個人的にはやり合ってるというか意見すら聞いてもらえないからやり合いにすらなってないと思ってる。もちろん年上の人だし、敬意を払うのは当然だと思うけど、なんか演習が演習になってんのかなと少し思う。教える気があるのかどうかあんまりわからないなぁって疑問が残りますね。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;研究室の先生は先生で連絡の仕方に疑問があって、MTGの3時間前くらいに突然告知をしてきたり前日の夜11時に翌日はMTGなんで学校来てくださいね〜みたいなことをする人だ。&lt;br /&gt;
-プロジェクトのLINEのグループを作って連絡をしてくれるのはいいのだけど、進捗管理から、各個人に対する連絡、その他のゼミの連絡などなど、該当者が全員じゃないメッセージが飛び交っていてまどろっこしい限りだ。&lt;br /&gt;
-LINEだからグループのチャット履歴を消せばどこにもログが残らないから消せないし、長文は書きにくいし読みにくいしで、ほんとLINEって複数人のプロジェクト管理には向いていないなと思います。個人間なら全然いいことだけどやっぱり複数人には複数人で使うものを選んだほうがいいなと思うのが最近です。&lt;/p&gt;
-
-&lt;p&gt;で、その連絡の仕方の話なんだけど、もしMTGがあるなら決まった段階で連絡を入れて欲しいし、急なら急であとから何かしらの対応を入れてほしい。いくら学生でも予定あったりするんだし、そういうことを教員がやっちゃってもいいのかと思う。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;まぁ単なる愚痴みたいなものだし、教員の方はやっぱすげえなと思うこともあるから偉そうなことは言えないんだけど学生のこともう少しみて、双方向性をもった関係を築こうとしてほしいかなと思う次第です。&lt;/p&gt;
 </content>
   </entry>
 </feed>
