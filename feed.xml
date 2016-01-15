@@ -5,10 +5,31 @@
   <id>http://yuu2friday.com/Friday</id>
   <link href="http://yuu2friday.com/Friday"/>
   <link href="http://yuu2friday.com/feed.xml" rel="self"/>
-  <updated>2016-01-08T00:00:00+09:00</updated>
+  <updated>2016-01-15T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>好きなことに好きっていうのっていいよねって話</title>
+    <link rel="alternate" href="http://yuu2friday.com/Friday/week15.html"/>
+    <id>http://yuu2friday.com/Friday/week15.html</id>
+    <published>2016-01-15T00:00:00+09:00</published>
+    <updated>2016-01-16T00:42:16+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;今週もやってまいりました憂鬱な金曜日。&lt;br /&gt;
+昨日今日と休みだった僕にはさして憂鬱でもなかったんですが毎週書くことが目標なんで今週も書くことにします。&lt;/p&gt;
+
+&lt;p&gt;好きなものにたいしてこれ好きですって言えることってすごく素敵だと思う。
+なんかたまに空気的にこれ好きなのってｗｗみたいなときあるけども、そんな時に自分が好きなら好きっていう意思表示していける人になりたいです。
+で、そのものを作ってる人が好きじゃなくても物が好きならちゃんと好きって言えることも大事かなと思います。&lt;br /&gt;
+人間が嫌いだから評価すらしないみたいなスタンスの人にはならないようにということです。&lt;/p&gt;
+
+&lt;p&gt;短いですが今日はこんな感じで…はい。&lt;br /&gt;
+いいもの作るのって難しい。はぁという感じが近況です。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>あ、作って終わりじゃないんだって話</title>
     <link rel="alternate" href="http://yuu2friday.com/Friday/week14.html"/>
@@ -133,33 +154,6 @@
 &lt;p&gt;そんなこんなでやりたいな〜と思ってることの家できそうなことはやってみたいのが最近の僕です。&lt;br /&gt;
 ツイートはしてたデザイン系のトークラジオ的なことを月1くらいの頻度でやってみたいからとりあえず何人か一緒に喋ってくれそうな人を探したいなと思ってます。興味ある方はTwitterにでもリプライかDM下さい。たぶん1人では飽きそうだしやらないと思うのが本音。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>見せない人たち</title>
-    <link rel="alternate" href="http://yuu2friday.com/Friday/week9.html"/>
-    <id>http://yuu2friday.com/Friday/week9.html</id>
-    <published>2015-12-04T00:00:00+09:00</published>
-    <updated>2015-12-06T00:01:40+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;9週目です。&lt;br /&gt;
-そろそろアーカイブのページを作った方がいいんだろうなぁって思いつつめんくささとアーカイブなんて見るやつおらんやろwって気持ちのせいで作業は進んでおりません。&lt;br /&gt;
-いつかたぶん実装します。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;今週の木曜日くらいにつぶやいてたことなんだけど、"個人のWebサイトがない・Twitterアカウントがない/あっても更新されていない・Facebookは鍵付きで見れない・その他SNSも利用していない"デザイナーさんって多そうというか一定数はいそうだと思うんだけども、その人たちってなんなのかなぁって思う。&lt;/p&gt;
-
-&lt;p&gt;きっとほんとはすごい人なんだろうけど、そのすごさを知れないというか、インターネット使って、作品が見れない上にどんな人なのかもわかんないみたいなことばかりで、情報が全く知れないのってどうなの！？って感じです。&lt;/p&gt;
-
-&lt;p&gt;そりゃ年代ごとにネットに対するギャップとか敵対心的なのはあって当然だと思うのだけども、いつまでも紙のポートフォリオだけってまずくないですかと言いたい。&lt;br /&gt;
-せっかく時代に合わせて？何かを伝えたり作ったりする仕事をしている人たちなんだからネットを使って情報を公開して自分自身を広めることは常日頃からしていくべきではないのかなと思う。&lt;/p&gt;
-
-&lt;p&gt;具体的に言えばドメイン取って、自己紹介のテキスト乗せておくだけでもかなり違うと思うし、すごい人がしたなら尚すごくなれる効果あるのにとてももったいない。&lt;br /&gt;
-学生も同じでジャンル関係なく紙でポートフォリオを作るだけじゃなくて、Webベースのポートフォリオを作ることでいろんな人に自分のことを見てもらえる機会を増やせるし、この先というかもう既に自分から発信していくことが必要な社会になりつつあるからこういうことに取り組んでおくことも大切ではないですかね。
-自分で一から作ってもいいし、tumblrでもいいしbehanceでもいいし、やり方なんていくらでもあるわけだから、ね！！！是非！！！&lt;/p&gt;
 </content>
   </entry>
 </feed>
