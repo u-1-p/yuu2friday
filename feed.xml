@@ -5,10 +5,37 @@
   <id>http://yuu2friday.com/Friday</id>
   <link href="http://yuu2friday.com/Friday"/>
   <link href="http://yuu2friday.com/feed.xml" rel="self"/>
-  <updated>2016-01-15T00:00:00+09:00</updated>
+  <updated>2016-01-24T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>見た目とは何なのか</title>
+    <link rel="alternate" href="http://yuu2friday.com/Friday/week16.html"/>
+    <id>http://yuu2friday.com/Friday/week16.html</id>
+    <published>2016-01-24T00:00:00+09:00</published>
+    <updated>2016-01-24T23:00:02+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんばんわ。&lt;br /&gt;
+割と気分が悪い金曜日でした。
+遅れながらも今週も日記を書いていきます。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;デザインは見た目ではないということはなんとなくだけどもわかっていていて工程等々含めてデザインって呼ぶことは素敵なことだなと思う。&lt;/p&gt;
+
+&lt;p&gt;しかし、よくある今まで全然売れてないもののビジュアル(見た目)を変えることでバカ売れしたみたいなのってどうなのと思う。&lt;br /&gt;
+食べ物、特にお菓子に多い気がする。&lt;br /&gt;
+売れない理由がパッケージ(見た目)のせいであるというのは考えられることだとは思う。&lt;br /&gt;
+だけども、商品のパッケージを変えたら突然売れ出したのって見た目の力を使って印象を変えたことによって一度手に取ってみるという機械を多くの人に与えられたからであって、パッケージを変える前にも手にとって見る人が居たはずだし、根本的な売れないという問題は解決しきれてないのではないかなと感じる。&lt;br /&gt;
+この問題はパッケージだけじゃなくて広告にも同じことが言えて、有名な芸能人を使って宣伝をしても売れるのって一定の期間だけでものの良さということがちゃんと伝わってないと持続しては売れずすぐワゴン行きになっちゃうんじゃないかなと思う。&lt;/p&gt;
+
+&lt;p&gt;偉大なデザイナーさんたちが突然パッケージのデザインをされて売れ出したりするものの批判ではないのだけども、それってなんだかなぁという疑問です。&lt;br /&gt;
+見た目だけを変えるのではなくて問題解決のために根本的なところにも踏み込んでデザインができる人になりたいなと思ってます。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>好きなことに好きっていうのっていいよねって話</title>
     <link rel="alternate" href="http://yuu2friday.com/Friday/week15.html"/>
@@ -135,25 +162,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;完全な別件だけど、名前ググッて作品が出てこないデザイナーってやっぱアレだなと思います。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>やりたいことがあるのに立ち止まる系のやつ</title>
-    <link rel="alternate" href="http://yuu2friday.com/Friday/week10.html"/>
-    <id>http://yuu2friday.com/Friday/week10.html</id>
-    <published>2015-12-11T00:00:00+09:00</published>
-    <updated>2015-12-12T00:56:31+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;記念すべき10週目にもかかわらず遅刻です。&lt;br /&gt;
-最近やりたかったことがちょっとすすめれてて憂鬱な日々が若干楽しくなりつつあるので良いです。&lt;br /&gt;
-だいたい今までやりたいことがやれなかったのって自分の中で失敗したくないとかうまく行かなかったらどうしようって気持ちが強くてなにもしないほうがいいって結論付けることが多かったからかなと思ってる。でも、そもそも初めてやることがはじめからうまくいくなんてことはないんだし、失敗しても次に活かせばいいわけで、行動しないまま頭だけ動かすのってほんと時間の無駄だなと気付きました。&lt;br /&gt;
-だから“やりたいことあるのに立ち止まる系の奴”はとりあえずやりたいことやってみようとすればいいと思います。下調べすることも大事だけど頭でっかちになっててはなにもできなくなるだけだしね。&lt;/p&gt;
-
-&lt;p&gt;そんなこんなでやりたいな〜と思ってることの家できそうなことはやってみたいのが最近の僕です。&lt;br /&gt;
-ツイートはしてたデザイン系のトークラジオ的なことを月1くらいの頻度でやってみたいからとりあえず何人か一緒に喋ってくれそうな人を探したいなと思ってます。興味ある方はTwitterにでもリプライかDM下さい。たぶん1人では飽きそうだしやらないと思うのが本音。&lt;/p&gt;
-
 </content>
   </entry>
 </feed>
