@@ -5,10 +5,48 @@
   <id>http://yuu2friday.com/Friday</id>
   <link href="http://yuu2friday.com/Friday"/>
   <link href="http://yuu2friday.com/feed.xml" rel="self"/>
-  <updated>2016-02-12T00:00:00+09:00</updated>
+  <updated>2016-02-26T00:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>いい加減な大人にならないための方法</title>
+    <link rel="alternate" href="http://yuu2friday.com/Friday/week19.html"/>
+    <id>http://yuu2friday.com/Friday/week19.html</id>
+    <published>2016-02-26T00:00:00+09:00</published>
+    <updated>2016-02-27T00:41:51+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;久々に書きます。&lt;br /&gt;
+ゼミの教員がめちゃくちゃいい加減で不信感しか抱かなくなりつつあるので、いい加減じゃない理想の大人像について書きます。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;1、連絡をする&lt;/strong&gt;&lt;br /&gt;
+くっそ当たり前のことだけども連絡ちゃんとデキる人ってやっぱ仕事出来てる感あるし、信頼もできるから連絡はこまめにきっちりとしてほしい。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2、できないことは言わない&lt;/strong&gt;&lt;br /&gt;
+できないのにできるっぽい発言はしないほうが良いと思う。  いやお前できてないじゃん。って言われるの目に見えてるしね。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3、何でも決めつけない&lt;/strong&gt;&lt;br /&gt;
+Aだから誰がなんと言おうとAだ。みたいな思考回路してる人と会話すらしたくないと思うから。柔軟さ大事です。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4、ちゃんと話を聞く&lt;/strong&gt;    &lt;br /&gt;
+言いたいことがあるのはすごくわかるが、相手が言おうとしていることをまず理解しようとしてから発言してほしい。的はずれな返答ほど不要で返しにくいものはないと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5、圧力つかって会話しない&lt;/strong&gt; &lt;br /&gt;
+いくら上の立場の人間だからって同意を得るときに威圧感()を使うのほんとやめてほしい。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6、忘れ事をしない&lt;/strong&gt;&lt;br /&gt;
+何らかの約束、期限等々を忘れないで頂きたい。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;現場からは以上です。&lt;br /&gt;
+大人になりたくねぇ…&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>怒ることって無駄じゃないですか？</title>
     <link rel="alternate" href="http://yuu2friday.com/Friday/week18.html"/>
@@ -146,38 +184,6 @@
 個人でやってることだから別にどれだけでも修正できるしやり直しもきくけども、できるだけ修正なくやり直しもしなくていいものを作るべきだろうから詰めが甘いのは大変良くないと思う。&lt;/p&gt;
 
 &lt;p&gt;いろんな数字を気にしがちになったりもするけどなるべく好きなことしてやっていきたいしちょっとした芯は持って今後も頑張りたいです。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>tumblrつかってサイト作った話</title>
-    <link rel="alternate" href="http://yuu2friday.com/Friday/week13.html"/>
-    <id>http://yuu2friday.com/Friday/week13.html</id>
-    <published>2016-01-01T00:00:00+09:00</published>
-    <updated>2016-01-03T00:58:15+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;あけてしまいました2016年。&lt;br /&gt;
-新年1発目の記事が遅刻という残念な感じですが、今年もよろしくお願いします。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;憂鬱ではないことなんですが、報告兼ねての後日談的なことをします。&lt;br /&gt;
-1月2日より活動を正式に始めた&lt;a href="http://unun-photo.tumblr.com"&gt;unun&lt;/a&gt;というグループを設立しました。そのwebサイトとロゴの製作をやってみた感じです。&lt;br /&gt;
-グループとしては写真撮って個展やったり、プロダクト的なものづくりまでできればいいかなと思っています。&lt;/p&gt;
-
-&lt;p&gt;ロゴはいくつか案を出し合ってなんかかっこいい感じのロゴになりました。&lt;br /&gt;
-印刷でも使えるように調整はしたつもりなんだけども使いどころがないので名刺とか作ってみたいですね。&lt;/p&gt;
-
-&lt;p&gt;Webサイトに関しては作るにあたってどうしてもtumblrを使いたい、そして、Tagや投稿タイプで条件分岐させたい、といろいろ悩んだ結果、Nakae Ryoさんがされていた&lt;a href="http://memo.brdr.jp/post/130809150016/react%E3%81%A7tumblr%E3%83%86%E3%83%BC%E3%83%9E%E4%BD%9C%E3%81%A3%E3%81%9F"&gt;記事&lt;/a&gt;を見つけて同じくtumblrAPIとReact.jsをつかってサイトを作ってみました。
-ソースコードを公開されていたのでめちゃくちゃ参考にしながらああでもないこうでもないとやって作った感じです。
-無知な僕にとってReact.jsはhtmlっぽいものを書けるのがとてもわかり易いというか良いなと思いました。&lt;/p&gt;
-
-&lt;p&gt;tumblrAPIの投稿タイプとtagを指定して取得しようとするとエラー出る問題とか、そもそもnode.jsをインストールする段階で詰んでて完成どころか開発すらできないんじゃ…みたいになりつつも年末の1週間位書けてガガッと詰め込んだ感じです。&lt;br /&gt;
-まだまだアップデートといいますか、調整をしていい感じに仕上げていきたいなと思うので良かったらチェックしてみてください。&lt;/p&gt;
-
-&lt;p&gt;こんな感じの報告だけの新年1発目の記事でした。&lt;br /&gt;
-おしまい。&lt;/p&gt;
 </content>
   </entry>
 </feed>
